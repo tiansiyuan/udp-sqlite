@@ -1,5 +1,11 @@
 # udp-sqlite
 
-First version using process pool. It takes 3 hours to write into 8 Sqlite3 DBs, 3.2G for each size.
+![System config](mac-config.png).
 
-See ![picture1](fig-1.png) and ![picture2](fig-2.png).
+First version uses process pool with python 3.6.1. It takes 3 hours to write into 8 Sqlite3 DBs, 3.2G for each size.
+
+See ![picture 1](fig-1.png) and ![picture 2](fig-2.png).
+
+Using pypy 5.8, the time would be reduced to half, 1.5 hours.
+
+See ![picture 3](pypy.png).
